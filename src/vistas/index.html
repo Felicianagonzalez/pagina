@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="lbl-menu">
+            <label for="radio1">Lista de Comandos</label>
+            <label for="radio2">Sintaxis</label>
+            <label for="radio3">Demostración</label>
+            
+        </div>
+        
+        <div class="content">
+           
+            <input type="radio" name="radio" id="radio1" checked>
+            
+            <div class="tab1">
+                <h2>Lista de Comandos Git</h2>
+                <p>git init</p>
+                <p>git status</p>
+                <p>git add</p>
+                <p>git config --global user.email</p>
+                <p>git config --global user.name</p>
+                <p>git commit</p>
+                <p>git checkout</p>
+                <p>git restore</p>
+                <p>git diff</p>
+                <p>git branch</p>
+                <p>git clone</p>
+                <p>git log</p>
+                <p>git fetch</p>
+                <p>git merge</p>
+                <p>git push</p>
+                <p>git pull</p>
+                <p>git rm</p>
+                <p>git switch</p>
+                <p>git remote</p>
+                
+                <a href="alumnos.html">ir a la vista prueba</a>
+
+            </div>
+            
+            <input type="radio" name="radio" id="radio2">
+            <div class="tab2">
+                <h2><font color="red">Sintáxis</font></h2>
+                <mark><i><b><ins>Git init</ins></b></i></mark>
+
+                <p style="text-align:justify;">git init es un comando que se utiliza una sola vez durante la configuración inicial de un repositorio nuevo. Al ejecutar este comando, se creará un nuevo subdirectorio .git en tu directorio de trabajo actual. También se creará una nueva rama maestra.
+                <a href="https://git-scm.com/search/results?search=git%20init">Leer más</a>
+                </p>
+                <center>
+                <img src="img/1.png" alt="Imagen centrada" />
+                </center>
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git status</ins></b></i></mark>
+                <p style="text-align:justify;">El comando git status muestra el estado del directorio de trabajo y del área del entorno de ensayo. Permite ver los cambios que se han preparado, los que no y los archivos en los que Git no va a realizar el seguimiento. El resultado del estado no muestra ninguna información relativa al historial del proyecto. Para ello, debes usar git log.</p>
+                <mark><i><b><ins><font color="green">Análisis</font></ins></b></i></mark>
+                <p style="text-align:justify;">El comando git status es un comando relativamente sencillo. Simplemente, muestra lo que ha ocurrido con los comandos git add y git commit. Los mensajes de estado también incluyen información importante para preparar archivos o deshacer su preparación. A continuación, se indica el resultado de ejemplo que muestra las tres categorías principales de una llamada de git status:</p>
+                <a href="https://git-scm.com/search/results?search=git%20status">Leer más</a>
+                
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git add</ins></b></i></mark>
+                <p style="text-align:justify;">Es una pieza fundamental del flujo básico de git ya que es el comando que mueve al índice las modificaciones que hayamos realizado. El índice es un snapshot del contenido del área de trabajo en un momento dado. Este snapshot es el que posteriormente se convertirá en un commit.</p>
+                <a href="https://git-scm.com/search/results?search=git%20add">Leer más</a>
+                
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git config --global user.email</ins></b></i></mark>
+                <p style="text-align:justify;">Este comando nos sirve para,definir un correo</p>
+                <a href="https://platzi.com/tutoriales/1557-git-github/4037-todos-los-comandos-del-curso-v20/">Leer más</a>
+               
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git config --global user.name</ins></b></i></mark>
+                <p style="text-align:justify;">Este comando nos sirve para,definir un nombre de usuario
+                </p>
+                <a href="https://git-scm.com/search/results?search=git%20init">Leer más</a>
+              
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git commit</ins></b></i></mark>
+                <p style="text-align:justify;">Las confirmaciones se crean con el comando git commit para capturar el estado de un proyecto en ese determinado momento. Las instantáneas de Git siempre se confirman en el repositorio local. Este enfoque es diametralmente opuesto al de SVN, donde la copia de trabajo se confirma en el repositorio central.</p>
+                <a href="https://www.atlassian.com/es/git/tutorials/saving-changes/git-commit">Leer más</a>
+                
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git checkout</ins></b></i></mark>
+                <p style="text-align:justify;">El comando git checkout te permite desplazarte entre las ramas creadas por git branch. Al extraer una rama, se actualizan los archivos en el directorio de trabajo para reflejar la versión almacenada en esa rama y se indica a Git que registre todas las confirmaciones nuevas en dicha rama. Puedes contemplar todo esto como una forma de seleccionar la línea de desarrollo en la que trabajas.</p>
+                <a href="https://git-scm.com/search/results?search=git%20init">Leer más</a>
+                
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git restore</ins></b></i></mark>
+                <p style="text-align:justify;">El comando git reset te permite RESTABLECER tu estado actual a un estado específico. Puedes restablecer el estado de archivos específicos, así como el de todo una rama. Esto es útil si aún no has subido tu commit a GitHub o a otro repositorio remoto.</p>
+                <b><ins><font color="green">Reset un archivo o un conjunto de archivos</font></ins></b>
+                <p style="text-align:justify;">El siguiente comando te permite elegir selectivamente los trozos de contenido y revertirlos o unstage los archivos: git reset (--patch | -p) [tree-ish] [--] [ruta]</p>
+                <a href="https://www.freecodecamp.org/espanol/news/la-guia-definitiva-para-git-reset-y-git-revert/">Leer más</a>
+            
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git diff</ins></b></i></mark>
+                <p style="text-align:justify;">Sirve para ver las diferencias con los archivos anteriores de los archivos que no se han añadido al área de ensayo. Esto código muestra exactamente los cambios que se han realizado dentro de los archivos. Se suele utilizar después de ver los cambios que ha habido en los archivos con el comando status. Puedes emplear git diff [archivo] para precisar la muestra.</p><a href="https://diego.com.es/uso-basico-de-git">Leer más</a>
+                
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git branch</ins></b></i></mark>
+                <p style="text-align:justify;">El comando git branch te permite crear, enumerar, cambiar el nombre y eliminar ramas. No te permite cambiar entre ramas o volver a unir un historial bifurcado. Por este motivo, git branch está estrechamente relacionado con los comandos git checkout y git merge.</p>
+                <a href="https://www.atlassian.com/es/git/tutorials/using-branches#:~:text=El%20comando%20git%20branch%20te,git%20checkout%20y%20git%20merge%20.">Leer más</a>
+               
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git clone</ins></b></i></mark>
+                <p style="text-align:justify;">git clone es una utilidad de línea de comandos de Git que se utiliza para fijar como objetivo un repositorio existente con el fin de clonarlo o copiarlo. En esta página, analizaremos las amplias opciones de configuración y los casos de uso comunes de git clone. Algunos puntos que trataremos aquí son los siguientes:
+                    <li>Clonar un repositorio local o remoto</li>
+                    <li>Clonar un repositorio bare (vacío)</li>
+                    <li>Utilizar opciones superficiales para clonar repositorios parcialmente</li>
+                    <li>Sintaxis de las URL de Git y protocolos admitidos</li>
+                    </p><a href="https://www.atlassian.com/es/git/tutorials/setting-up-a-repository/git-clone">Leer más</a>
+                
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git log</ins></b></i></mark>
+                <p style="text-align:justify;">El comando git log muestra las instantáneas confirmadas. Te permite ver el historial del proyecto, filtrarlo y buscar cambios concretos. Mientras que git status te permite examinar el directorio de trabajo y el entorno de ensayo, git log solo muestra el historial confirmado.</p><a href="https://www.atlassian.com/es/git/tutorials/inspecting-a-repository#:~:text=El%20comando%20git%20log%20es,en%20una%20rama%20de%20funci%C3%B3n.">Leer más</a>
+                
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git fetch</ins></b></i></mark>
+                <p style="text-align:justify;">git init es un comando que se utiliza una sola vez durante la configuración inicial de un repositorio nuevo. Al ejecutar este comando, se creará un nuevo subdirectorio .git en tu directorio de trabajo actual. También se creará una nueva rama maestra.</p><a href="https://www.freecodecamp.org/espanol/news/git-fetch-vs-pull-cual-es-la-diferencia-entre-los-comandos-git-fetch-y-git-pull/">Leer más</a>
+                
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git merge</ins></b></i></mark>
+                <p style="text-align:justify;">La fusión es la forma que tiene Git de volver a unir un historial bifurcado. El comando git merge permite tomar las líneas independientes de desarrollo creadas por git branch e integrarlas en una sola rama.En los casos de uso más frecuentes, git merge se utiliza para combinar dos ramas. Los ejemplos siguientes del presente documento se centrarán en este patrón de fusión de ramas.</p><a href="https://www.atlassian.com/es/git/tutorials/using-branches/git-merge">Leer más</a>
+                
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git push</ins></b></i></mark>
+                <p style="text-align:justify;">Sube los cambios hechos a una rama de trabajo tuya y/o de tu equipo remota.Envía la rama especificada a una , junto con todos los commits y objetos internos necesarios. De este modo se crea una rama local en el repositorio de destino. Para evitar que se sobrescriban los commits, Git no te permitirá enviarlos cuando el resultado en el repositorio de destino sea una fusión sin avance rápido.</p><a href="https://www.atlassian.com/es/git/tutorials/syncing/git-push">Leer más</a>
+                
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git pull</ins></b></i></mark>
+                <p style="text-align:justify;">Actualiza la rama HEAD actual con los últimos cambios desde el servidor remoto.El comando git pull ejecuta en primer lugar git fetch, que descarga el contenido del repositorio remoto especificado. Después, se ejecuta git merge para fusionar las referencias y los encabezados del contenido remoto en una nueva confirmación de fusión local. </p><a href="https://www.atlassian.com/es/git/tutorials/syncing/git-pull">Leer más</a>
+                
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git rm</ins></b></i></mark>
+                <p style="text-align:justify;">Especifica los archivos de destino que se van a eliminar. El valor de opción puede ser un archivo individual, una lista de archivos delimitada por espacios file1 file2 file3 o un patrón global de archivos con caracteres comodín (~./directory/*).</p><a href="https://www.atlassian.com/es/git/tutorials/undoing-changes/git-rm#:~:text=El%20comando%20git%20rm%20se%20puede%20usar%20para%20eliminar%20archivos,como%20del%20directorio%20de%20trabajo.">Leer más</a>
+                
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git switch</ins></b></i></mark>
+                <p style="text-align:justify;">Cambia a una rama específica. El árbol de trabajo y el índice se actualizan para que coincidan con la rama. Todas las nuevas confirmaciones se agregarán a la punta de esta rama.</p><a href="https://git-scm.com/docs/git-switch">Leer más</a>
+                
+
+                <h2><font color="blue">Comando</font></h2>
+                <mark><i><b><ins>Git remote</ins></b></i></mark>
+                <p style="text-align:justify;">El comando git remote te permite crear, ver y eliminar conexiones con otros repositorios. Las conexiones remotas se asemejan más a marcadores que a enlaces directos con otros repositorios. En lugar de brindar acceso en tiempo real a otro repositorio, funcionan como nombres prácticos que pueden emplearse para hacer referencia a una URL no tan sencilla.</p><a href="https://www.atlassian.com/es/git/tutorials/syncing#:~:text=El%20comando%20git%20remote%20es,se%20utilizan%20los%20siguientes%20comandos.">Leer más</a>
+                
+
+
+            </div>
+
+            
+            <input type="radio" name="radio" id="radio3">
+            <div class="tab3">
+
+                <h2><font color="red">Ejemplo</font></h2>
+                <i><b><ins>Git init</ins></b></i>
+                <p style="text-align:justify;">Teniendo los archivos creados se debe de inicializar el proyecto.</p>
+                <center>
+                <img src="img/a1.png" alt="Imagen centrada" />
+                </center>
+
+                
+                <h2><font color="red">Ejemplo</font></h2>
+                <i><b><ins>Git status</ins></b></i>
+                <p style="text-align:justify;">El comando git status muestra el estado del directorio de trabajo y del área del entorno de ensayo.</p>
+                <center>
+                <img src="img/a2.png" alt="Imagen centrada" />
+                </center>
+
+                <h2><font color="red">Ejemplo</font></h2>
+                <i><b><ins>Git add</ins></b></i>
+                <p style="text-align:justify;">Todos los archivos deben de inicializarse, para su funcionamiento ya que no están inicializados.</p>
+                <center>
+                <img src="img/a3.png" alt="Imagen centrada" />
+                </center>
+
+                <h2><font color="red">Ejemplo</font></h2>
+                <i><b><ins>Git config --global user.email</ins></b></i>
+                <p style="text-align:justify;">Estos comandos establecen tu nombre de usuario y dirección de correo electrónico. Esto es importante porque los "commits" de Git usan esta información, y es introducida de manera inmutable en los commits que envías: </p>
+                <center>
+                <img src="img/a4.png" alt="Imagen centrada" />
+                </center>
+
+                <h2><font color="red">Ejemplo</font></h2>
+                <i><b><ins>Git config --global user.name</ins></b></i>
+                <p style="text-align:justify;">Este comando es para crear nuestro nombre</p>
+                <center>
+                <img src="img/a5.png" alt="Imagen centrada" />
+                </center>
+
+                <h2><font color="red">Ejemplo</font></h2>
+                <i><b><ins>Git commit</ins></b></i>
+                <p style="text-align:justify;">Se deben de crear los repositorios de los versiones de trabajo para nuestro proyecto.</p>
+                <center>
+                <img src="img/a6.png" alt="Imagen centrada" />
+                </center>
+
+                <h2><font color="red">Ejemplo</font></h2>
+                <i><b><ins>Git checkout</ins></b></i>
+                <p style="text-align:justify;"> cambia de rama o restaura archivos de árbol de trabajo</p>
+                <center>
+                <img src="img/a7.png" alt="Imagen centrada" />
+                </center>
+
+                <h2><font color="red">Ejemplo</font></h2>
+                <i><b><ins>Git branch</ins></b></i>
+                <p style="text-align:justify;">enumera, crea o elimina ramas </p>
+                <center>
+                <img src="img/10a.png" alt="Imagen centrada" />
+                </center>
+
+                <h2><font color="red">Ejemplo</font></h2>
+                <i><b><ins>Git clone</ins></b></i>
+                <p style="text-align:justify;"> este codigo nos permiote clonar un repositorio en un nuevo directorio, se necesita tener una cuenta para crear repositorios que ya alguien creo, descarga el código de un repositorio externo.</p>
+                <center>
+                <img src="img/11a.png" alt="Imagen centrada" />
+                </center>
+
+                <h2><font color="red">Ejemplo</font></h2>
+                <i><b><ins>Git log</ins></b></i>
+                <p style="text-align:justify;">Nos muestra registros de confirmación</p>
+                <center>
+                <img src="img/12a.png" alt="Imagen centrada" />
+                </center>
+
+                
+
+                <h2><font color="red">Ejemplo</font></h2>
+                <i><b><ins>Git merge</ins></b></i>
+                <p style="text-align:justify;">Incorpora cambios de las confirmaciones nombradas (desde el momento en que sus historiales divergieron de la rama actual) a la rama actual.</p>
+                <center>
+                <img src="img/14a.png" alt="Imagen centrada" />
+                </center>
+
+                <h2><font color="red">Ejemplo</font></h2>
+                <i><b><ins>Git push</ins></b></i>
+                <p style="text-align:justify;">Ahora ejecutamos el siguiente comando es el que nos va a permitir subir todos los archivos a Github. Y listo los archivos se van subiendo.</p>
+                <center>
+                <img src="img/15a.png" alt="Imagen centrada" />
+                </center>
+
+                <h2><font color="red">Ejemplo</font></h2>
+                <i><b><ins>Git pull</ins></b></i>
+                <p style="text-align:justify;">obtenga e integre con otro repositorio o una sucursal local </p>
+                <center>
+                <img src="img/16a.png" alt="Imagen centrada" />
+                </center>
+
+                
+
+                <h2><font color="red">Ejemplo</font></h2>
+                <i><b><ins>Git remote</ins></b></i>
+                <p style="text-align:justify;"> Ahora se debe de usar el comando para, prepararlo con una conexión entre el local y remoto con la dirección que nos creo en el repositorio. Este código es solo para la conexión.</p>
+                <center>
+                <img src="img/19a.png" alt="Imagen centrada" />
+                </center>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

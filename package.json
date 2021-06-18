@@ -1,0 +1,19 @@
+{
+  "name": "pagina",
+  "version": "1.0.0",
+  "description": "expres",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node src/servidor.js",
+    "dev":"nodemon src/servidor.js"
+  },
+  "author": "Feliciana Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
